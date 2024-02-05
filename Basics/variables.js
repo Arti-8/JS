@@ -1,3 +1,4 @@
+/* const, var & let difference: https://www.freecodecamp.org/news/differences-between-var-let-const-javascript/ */
 const accId = 4321
 let accEmail = "raniarti2002@gmail.com"
 var accPassword = "1234blablabl@"           /*not preffered bcz it doesn't control block & 
@@ -12,3 +13,29 @@ accPassword = "1234blabl@bla"
 accCity = "Chandigarh"                          //not preferred to use much
 accState = "Uttar Pradesh" 
 console.table([accCity,accEmail,accId])
+console.log(x)
+var x = 2
+console.log(x)
+
+/*
+let number = 50
+
+function print() {
+  let square = number * number
+
+  if (number < 60) {
+    var largerNumber = 80
+    let anotherLargerNumber = 100
+
+    console.log(square)
+  }
+
+  console.log(largerNumber)
+  console.log(anotherLargerNumber)
+}
+
+print()
+// 2500
+// 80
+// ReferenceError: anotherLargerNumber is not defined
+*/
